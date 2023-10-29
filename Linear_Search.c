@@ -6,6 +6,7 @@ void linearsearch(int arr[], int a, int n){
     if (arr[i] == a){
       printf("Element found at index %d\n", i);
       found = 1;
+      break;
     }
   }
   if (found == 0){
